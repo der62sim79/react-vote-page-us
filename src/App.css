@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+
+.voteContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBack{
+  background-image: url(./components/us.jpg);
+}
