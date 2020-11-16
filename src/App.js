@@ -33,8 +33,8 @@ bidenVotes = (numberOfVote) =>{
   return (
     <div className="App">
       <div className="imgBack" >
-      <div>
-        Summe: {this.state.bidenVotes + this.state.trumpVotes} 
+      <div className="sum">
+        Stimmen Summe: {this.state.bidenVotes + this.state.trumpVotes} 
       </div>
       <div className="voteContainer">
         <Vote name="Trump" onIncrement={this.trumpVotes} />
